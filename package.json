@@ -1,0 +1,27 @@
+{
+  "name": "mern-rest-api",
+  "version": "1.0.0",
+  "description": "This is a CrossFit web app that allows users to create, add, and delete workouts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makaylacodes/mern-rest-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makaylacodes/mern-rest-api/issues"
+  },
+  "homepage": "https://github.com/makaylacodes/mern-rest-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
